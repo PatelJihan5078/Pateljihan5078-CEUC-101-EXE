@@ -1,22 +1,28 @@
+/*
+Aim:find BMI
+Programmer: Patel jihan 
+Date: 
+
+*/
 #include <stdio.h>
 #include <conio.h>
 
 int main() {
-    float weight, height, bmi;
+    float w, h, bmi;
 
     clrscr();
 
     printf("Enter weight (kg): ");
-    scanf("%f", &weight);
+    scanf("%f", &w);
 
     printf("Enter height (meters): ");
-    scanf("%f", &height);
+    scanf("%f", &h);
 
-    bmi = weight / (height * height);
+    bmi = w / (h * h);
 
     printf("\n--- BMI Result ---\n");
-    printf("Weight: %.2f kg\n", weight);
-    printf("Height: %.2f m\n", height);
+    printf("Weight: %.2f kg\n", w);
+    printf("Height: %.2f m\n", h);
     printf("BMI: %.2f\n", bmi);
 
     if(bmi < 18.5)
