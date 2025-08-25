@@ -7,15 +7,18 @@
 void main()
 {
 	int n=0;
-	float d=0.0;
+	float d=0;
 	clrscr();
-	while(d<10)
+	while(1)
 	{
 	n++;
-	d+= 0.5;
+	d += 0.5;
 	printf("minute %d: Distance covered %f\n",n,d);
-	}
+	if (d>=10.0)
+	{
 	printf("mrathon completed\n");
+	break;
+	}
+	}
 	getch();
-	return 0;
 	}
