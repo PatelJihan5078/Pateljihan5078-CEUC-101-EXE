@@ -1,25 +1,33 @@
+/*
+Aim: find parameter and area
+Programmer: Patel jihan
+Date: */
+
+
+
+
 #include <stdio.h>
 #include <conio.h>
 
 int main() {
-    float length, breadth, area, perimeter;
+    float l, b, a, p;
 
     clrscr();
 
     printf("Enter length of park (in meters): ");
-    scanf("%f", &length);
+    scanf("%f", &l);
 
     printf("Enter breadth of park (in meters): ");
-    scanf("%f", &breadth);
+    scanf("%f", &b);
 
-    area = length * breadth;
-    perimeter = 2 * (length + breadth);
+    a = l * b;
+    p = 2 * (l + b);
 
     printf("\n--- Park Details ---\n");
-    printf("Length: %.2f m\n", length);
-    printf("Breadth: %.2f m\n", breadth);
-    printf("Area: %.2f sq.m\n", area);
-    printf("Perimeter: %.2f m\n", perimeter);
+    printf("Length: %.2f m\n", l);
+    printf("Breadth: %.2f m\n", b);
+    printf("Area: %.2f sq.m\n", a);
+    printf("Perimeter: %.2f m\n", p);
 
     getch(); 
 }
