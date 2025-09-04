@@ -1,11 +1,11 @@
 /* Aim: Create a Pattern
    Programmer: Patel Jihan
-   Date: 09/04/25
+   Date: 04/09/25
 */
 #include<stdio.h>
 
 void main()
-{
+{                                 
 	int i, j;
 	clrscr();
 	for (i=1; i<=5; i++)
