@@ -1,4 +1,4 @@
-/* Aim: Create Pattern-2
+/* Aim: Create Pattern-3
    Programmer: Jihan Patel
    Date:04/09/25
 */
