@@ -1,3 +1,8 @@
+/* Aim: Make a pattern
+   Name: Jihan Patel
+   Date: 16/09/2025
+   */
+
 #include<stdio.h>
 int main()
 {
