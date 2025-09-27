@@ -7,27 +7,23 @@
 
 int main() {
     int marks;
-    char grade;
-
     printf("Enter student's marks (0-100): ");
     scanf("%d", &marks);
 
-    
+    // Input validation
     if (marks < 0 || marks > 100) {
         printf("Invalid input\n");
     } else {
         if (marks >= 90)
-            grade = 'A';
+            printf("Grade: A\n");
         else if (marks >= 80)
-            grade = 'B';
+            printf("Grade: B\n");
         else if (marks >= 70)
-            grade = 'C';
+            printf("Grade: C\n");
         else if (marks >= 60)
-            grade = 'D';
+            printf("Grade: D\n");
         else
-            grade = 'F';
-
-        printf("Grade: %c\n", grade);
+            printf("Grade: F\n");
     }
 
     return 0;
