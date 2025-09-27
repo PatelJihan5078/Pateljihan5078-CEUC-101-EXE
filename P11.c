@@ -10,7 +10,6 @@ int main() {
     printf("Enter student's marks (0-100): ");
     scanf("%d", &marks);
 
-    // Input validation
     if (marks < 0 || marks > 100) {
         printf("Invalid input\n");
     } else {
