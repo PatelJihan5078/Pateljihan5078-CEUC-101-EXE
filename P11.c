@@ -1,6 +1,6 @@
 /* Aim: To find grade by marks
   Programmer: Jihan Patel
-  Date: 27/08/2025
+  Date: 1/08/2025
 */
 
 #include <stdio.h>
