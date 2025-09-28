@@ -36,7 +36,7 @@ void main()
 		case 5:
 			FA=FA+80;
 			break;
-		case 6:
+		case 0:
 			goto y;
 		default:
 			printf("choose item");
