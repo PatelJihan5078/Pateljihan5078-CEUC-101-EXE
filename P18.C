@@ -1,8 +1,3 @@
-/*
-Aim:Table
-Programmer: Jihan Patel
-Date: 25/07/25
-*/
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -20,7 +15,7 @@ void main()
 		{
 			printf("%d\t",(i*j));
 		}
+        printf("\n");
 	}
 	getch();
 }
-
