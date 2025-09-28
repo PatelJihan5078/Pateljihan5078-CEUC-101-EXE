@@ -8,13 +8,14 @@ void main()
 {
 	int a,FA,y;
 	FA=0;
-	clrscr();
+
 	printf("choose any food from the following list");
-	printf("\1nburger cost 150 rupees");
-	printf("\n2pizza cost 200 rupees");
-	printf("\n3pasta cost 120 rupees");
-	printf("\n4sandwich cost 100 rupees");
-	printf("\n5french fries cost 80 rupees");
+	printf("\n1)burger cost 150 rupees");
+	printf("\n2)pizza cost 200 rupees");
+	printf("\n3)pasta cost 120 rupees");
+	printf("\n4)sandwich cost 100 rupees");
+	printf("\n5)french fries cost 80 rupees");
+    printf("\n0)exit");
        x: printf("\nchoose a number");
 
 	scanf("%d",&a);
