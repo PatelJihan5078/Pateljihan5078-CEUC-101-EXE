@@ -1,3 +1,8 @@
+/*
+  AIM: To find area for valid traingle
+  Name: Jihan Patel
+  Date: 28/10/2025
+  */
 #include<stdio.h>
 #include<math.h>
 void inputs(double a,double b,double c);
