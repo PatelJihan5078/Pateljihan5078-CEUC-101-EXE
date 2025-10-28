@@ -14,6 +14,7 @@ int validation(double a,double b,double c)
 {
  if(a<=0 || b<=0 || c<=0)
  {
+     printf("Enter positive value\n");
      return 0;
  }
  if((a+b>c)&&(b+c>a) && (a+c>b))
