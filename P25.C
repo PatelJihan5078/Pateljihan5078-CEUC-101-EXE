@@ -1,3 +1,9 @@
+
+/*
+  AIM: To make program for library
+  Name: Jihan Patel
+  Date: 28/10/2025
+  */
 #include<stdio.h>
 void displayBooks();
 int getTotalBooks();
